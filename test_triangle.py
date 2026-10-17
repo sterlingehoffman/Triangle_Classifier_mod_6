@@ -9,10 +9,8 @@ def test_is_side_positive():
 def test_is_inequal_triangle():
     assert not is_valid_triangle(1, 1, 3), "Triangle with sides 1, 1, 3 should be invalid"
     print("Test Passed")
-    else:
-        print("Valid")
 
-# Copilot suggested body for test, edited to allow for correct testing of the case.
+# Copilot suggested body for test, edited as error sprung during pytest run.
 def test_is_degenerate_triangle():
     assert not is_valid_triangle(1, 2, 3), "Triangle with sides 1, 2, 3 should be invalid"
     print("Test Passed")
