@@ -10,7 +10,7 @@ def test_is_inequal_triangle():
     assert not is_valid_triangle(1, 1, 3), "Triangle with sides 1, 1, 3 should be invalid"
     print("Test Passed")
 
-# Copilot suggested body for test, edited as error sprung during pytest run.
+# Copilot suggested body for test, accepted as it correctly tests for the case.
 def test_is_degenerate_triangle():
     assert not is_valid_triangle(1, 2, 3), "Triangle with sides 1, 2, 3 should be invalid"
     print("Test Passed")
@@ -40,4 +40,4 @@ def test_is_right_with_non_integer_sides():
     assert classify_triangle(5, 5, 5*math.sqrt(2)) == "Right Isosceles", "Triangle with sides 5, 5, 5*sqrt(2) should be right isosceles"
     print("Test Passed")
 
-# Copilot suggested body for test, edited to allow for assignment specified test case to be tested.
+# Copilot suggested body for test, edited to allow for assignment specified test case (5, 5 and 5 square root 2)to be tested.
