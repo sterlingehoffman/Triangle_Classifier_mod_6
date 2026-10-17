@@ -30,7 +30,7 @@ def classify_triangle(a, b, c):
     """
     if not is_valid_triangle(a, b, c):
         return "Not a triangle"
-    str result = ""
+    result = ""
 
     if a == b == c:
         result = "Equilateral"
